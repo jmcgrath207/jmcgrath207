@@ -1,4 +1,16 @@
-### Hi there 👋
+
+<a href="https://github.com/afritzler/">
+  <img align="center" src="https://github-readme-stats.vercel.app/api?username=jmcgrath207&count_private=true&show_icons=true&include_all_commits=true" />
+</a>
+
+<a href="https://github.com/afritzler/">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jmcgrath207&hide=javascript,html,css&layout=compact&langs_count=20" />
+</a>
+
+---
+
+![visitors](https://visitor-badge.glitch.me/badge?page_id=jmcgrath207.github)
+
 
 <!--
 **jmcgrath207/jmcgrath207** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
