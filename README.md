@@ -10,6 +10,7 @@
 ---
 
 ![visitors](https://visitor-badge.glitch.me/badge?page_id=jmcgrath207.github)
+[![My LinkedIn](https://img.shields.io/badge/LinkedIn%20Profile-jmcgrath207-blue?logo=linkedin)](https://www.linkedin.com/in/john-m-b33b7567)
 
 
 <!--
