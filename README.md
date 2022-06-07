@@ -1,7 +1,13 @@
 
+
+
+---
+
 <a href="https://github.com/jmcgrath207/">
   <img align="center" src="https://github-readme-stats.vercel.app/api?username=jmcgrath207&count_private=true&show_icons=true&include_all_commits=true" />
 </a>
+
+---
 
 <a href="https://github.com/jmcgrath207/">
   <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jmcgrath207&hide=java,html,css,typescript&layout=compact&langs_count=20" />
@@ -9,6 +15,12 @@
 
 ---
 
+My Pull Requests
+
+https://github.com/pulls?q=is:pr+author:jmcgrath207
+
+---
+[![HamiltonPharmD StackOverflow](https://stackoverflow-badge.herokuapp.com/api/StackOverflowBadge/14122375)](https://stackoverflow.com/users/3263650/jmcgrath207)
 ![visitors](https://visitor-badge.glitch.me/badge?page_id=jmcgrath207.github)
 [![My LinkedIn](https://img.shields.io/badge/LinkedIn%20Profile-jmcgrath207-blue?logo=linkedin)](https://www.linkedin.com/in/john-m-b33b7567)
 
