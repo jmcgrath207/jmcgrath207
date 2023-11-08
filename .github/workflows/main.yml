@@ -28,6 +28,7 @@ jobs:
           user: jmcgrath207
           template: classic
           base: header, activity, community, repositories, metadata
+          base_indepth: yes
           config_timezone: America/Chicago
           plugin_discussions: yes
           plugin_discussions_categories: yes
@@ -35,7 +36,17 @@ jobs:
           plugin_followup_archived: yes
           plugin_followup_indepth: yes
           plugin_followup_sections: repositories
+          plugin_notable: yes
+          plugin_notable_from: organization
+          plugin_notable_indepth: yes
+          plugin_notable_repositories: yes
+          plugin_notable_types: commit
           plugin_repositories: yes
           plugin_repositories_order: featured, pinned, starred, random
           plugin_repositories_pinned: 6
           plugin_repositories_starred: 6
+          plugin_stackoverflow: yes
+          plugin_stackoverflow_limit: 2
+          plugin_stackoverflow_lines: 4
+          plugin_stackoverflow_lines_snippet: 2
+          plugin_stackoverflow_user: 3263650
