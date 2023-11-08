@@ -35,6 +35,7 @@ jobs:
           plugin_followup_indepth: yes
           plugin_followup_sections: repositories,user
           plugin_stackoverflow: yes
+          plugin_stackoverflow_sections: ""
           plugin_stackoverflow_limit: 2
           plugin_stackoverflow_lines: 4
           plugin_stackoverflow_lines_snippet: 2
