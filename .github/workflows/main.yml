@@ -17,6 +17,7 @@ jobs:
           # Your GitHub token
           # The following scopes are required:
           #  - public_access (default scope)
+          #  - repo
           # The following additional scopes may be required:
           #  - read:org      (for organization related metrics)
           #  - read:user     (for user related data)
@@ -30,8 +31,6 @@ jobs:
           base: header, activity, community, repositories, metadata
           base_indepth: yes
           config_timezone: America/Chicago
-          plugin_discussions: yes
-          plugin_discussions_categories: yes
           plugin_followup: yes
           plugin_followup_archived: yes
           plugin_followup_indepth: yes
@@ -50,3 +49,4 @@ jobs:
           plugin_stackoverflow_lines: 4
           plugin_stackoverflow_lines_snippet: 2
           plugin_stackoverflow_user: 3263650
+          plugin_traffic: yes
