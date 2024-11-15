@@ -1,43 +1,43 @@
 # Visit https://github.com/lowlighter/metrics#-documentation for full reference
-name: Metrics
-on:
-  # Schedule updates (each hour)
-  schedule: [{cron: "0 * * * *"}]
-  # Lines below let you run workflow manually and on each commit
-  workflow_dispatch:
-jobs:
-  github-metrics:
-    runs-on: ubuntu-latest
-    permissions:
-      contents: write
-    steps:
-      - uses: lowlighter/metrics@latest
-        with:
-          # Your GitHub token
-          # The following scopes are required:
-          #  - public_access (default scope)
-          #  - repo
-          # The following additional scopes may be required:
-          #  - read:org      (for organization related metrics)
-          #  - read:user     (for user related data)
-          #  - read:packages (for some packages related data)
-          #  - repo          (optional, if you want to include private repositories)
-          token: ${{ secrets.METRICS_TOKEN }}
-
-          # Options
-          user: jmcgrath207
-          template: classic
-          base: header, activity, community, repositories, metadata
-          base_indepth: yes
-          config_timezone: America/Chicago
-          plugin_followup: yes
-          plugin_followup_archived: yes
-          plugin_followup_indepth: yes
-          plugin_followup_sections: repositories,user
-          plugin_stackoverflow: yes
-          plugin_stackoverflow_sections: ""
-          plugin_stackoverflow_limit: 2
-          plugin_stackoverflow_lines: 4
-          plugin_stackoverflow_lines_snippet: 2
-          plugin_stackoverflow_user: 3263650
-          plugin_traffic: yes
+#name: Metrics
+#on:
+#  # Schedule updates (each hour)
+#  schedule: [{cron: "0 * * * *"}]
+#  # Lines below let you run workflow manually and on each commit
+#  workflow_dispatch:
+#jobs:
+#  github-metrics:
+#    runs-on: ubuntu-latest
+#    permissions:
+#      contents: write
+#    steps:
+#      - uses: lowlighter/metrics@latest
+#        with:
+#          # Your GitHub token
+#          # The following scopes are required:
+#          #  - public_access (default scope)
+#          #  - repo
+#          # The following additional scopes may be required:
+#          #  - read:org      (for organization related metrics)
+#          #  - read:user     (for user related data)
+#          #  - read:packages (for some packages related data)
+#          #  - repo          (optional, if you want to include private repositories)
+#          token: ${{ secrets.METRICS_TOKEN }}
+#
+#          # Options
+#          user: jmcgrath207
+#          template: classic
+#          base: header, activity, community, repositories, metadata
+#          base_indepth: yes
+#          config_timezone: America/Chicago
+#          plugin_followup: yes
+#          plugin_followup_archived: yes
+#          plugin_followup_indepth: yes
+#          plugin_followup_sections: repositories,user
+#          plugin_stackoverflow: yes
+#          plugin_stackoverflow_sections: ""
+#          plugin_stackoverflow_limit: 2
+#          plugin_stackoverflow_lines: 4
+#          plugin_stackoverflow_lines_snippet: 2
+#          plugin_stackoverflow_user: 3263650
+#          plugin_traffic: yes
